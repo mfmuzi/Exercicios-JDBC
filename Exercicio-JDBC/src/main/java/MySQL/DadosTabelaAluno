@@ -1,0 +1,21 @@
+1 - Acessar o banco de dados.
+
+2 - Entrar no banco de dados digital_innovation_one:
+USE digital_innovation_one;
+
+3 - Criar a tabela aluno no banco de dados:
+CREATE TABLE aluno (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(80) NOT NULL,
+    idade INTEGER NOT NULL,
+    estado CHARACTER(2) NOT NULL
+);
+
+4 - Adicionar alunos na tabela:
+INSERT INTO aluno(nome, idade, estado) VALUES ('Pedro', 20, 'RJ');
+INSERT INTO aluno(nome, idade, estado) VALUES ('Maria', 35, 'AC');
+INSERT INTO aluno(nome, idade, estado) VALUES ('Joao', 10, 'SC');
+INSERT INTO aluno(nome, idade, estado) VALUES ('Ana', 51, 'GO');
+
+
+

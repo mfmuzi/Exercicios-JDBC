@@ -1,0 +1,12 @@
+1 - Criar a tabela curso no banco de dados:
+CREATE TABLE curso (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(80) NOT NULL,
+    duracao_horas INTEGER NOT NULL
+);
+
+2 - Adicionar alunos na tabela:
+INSERT INTO curso(nome, duracao_horas) VALUES ('Quimica Analitica', '20');
+INSERT INTO curso(nome, duracao_horas) VALUES ('Quimica Organica', '40');
+INSERT INTO curso(nome, duracao_horas) VALUES ('Quimica Ambiental', '10');
+INSERT INTO curso(nome, duracao_horas) VALUES ('Quimica Quantica', '30');
